@@ -4,3 +4,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header */
+h1 { 
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 1.25rem 0;
+    cursor: pointer;
+}
+
+/* styling box  */
+.mybox {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: .625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* hover efffect */
+.mybox:hover {
+    transform: scale(.9);
+    transition: all .3s ease-in-out;
+}
+
+/* active effect */
+.mybox:active {
+    transform: scale(1.5);
+    transition: all .3s ease-in-out;
+}
+
+/* bg-colors */
+.myFirstBg { background-color: #8a2c71;}
+.mySecondBg { background-color: #6a5a90;}
+.myThirdBg { background-color: #3e6ee7;}
+.myFourthBg { background-color: #0c4279;}
+.myFifthBg { background-color: #fefefe;}
+.mySixthBg { background-color: #f7b84e;}
+
+/* color */
+.myh1Color { color: #8a2c71;}
